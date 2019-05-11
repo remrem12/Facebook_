@@ -1,0 +1,234 @@
+.control_Content .control_box_2 {
+  display: block;
+  margin: 0 auto;
+  width: 900px;
+  justify-content: center;
+  height: auto;
+}
+.control_Content .control_box_2 .head_bgd_img {
+  display: block;
+  margin: 0 auto;
+  width: 900px;
+  height: auto;
+}
+.control_Content .control_box_2 .head_bgd_img .profile_bgd_img {
+  display: block;
+  background: red;
+  background: url("../img/bgd.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -100px;
+  width: 900px;
+  height: 255px;
+  border: solid 2px rgba(149, 165, 166, 0.4);
+  border-radius: 0 0 8px 8px;
+  border-right: none;
+  border-left: none;
+  box-sizing: border-box;
+}
+.control_Content .control_box_2 .head_bgd_img .profile_bgd_img img {
+  width: 168px;
+  height: 168px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  position: relative;
+  top: 78px;
+  left: 40%;
+}
+.control_Content .control_box_2 .name_profile {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 60px;
+  position: relative;
+  top: 20px;
+  color: #4A4A4A;
+}
+.control_Content .control_box_2 .name_profile .text {
+  text-align: center;
+  font-family: sans-serif;
+}
+.control_Content .control_box_2 .name_profile .text p {
+  padding-top: 6px;
+}
+.control_Content .control_box_2 .bar_profile {
+  width: 900px;
+  height: 32px;
+  background: #fff;
+  margin-top: 30px;
+}
+.control_Content .control_box_2 .bar_profile .left_bar_profile {
+  display: inline-block;
+}
+.control_Content .control_box_2 .bar_profile .left_bar_profile ul {
+  padding-left: 6px;
+  cursor: pointer;
+  display: inline-block;
+}
+.control_Content .control_box_2 .bar_profile .left_bar_profile ul li {
+  list-style-type: none;
+  display: inline-block;
+  height: 24px;
+  line-height: 30px;
+  padding: 0 14px 1px 10px;
+  font-size: .95rem;
+}
+.control_Content .control_box_2 .bar_profile .left_bar_profile ul li:nth-child(1), .control_Content .control_box_2 .bar_profile .left_bar_profile ul li:hover {
+  border-bottom: 2px #365899 solid;
+}
+.control_Content .control_box_2 .bar_profile .right_bar_profile {
+  display: inline-block;
+  position: relative;
+  right: -130px;
+}
+.control_Content .control_box_2 .bar_profile .right_bar_profile select {
+  position: relative;
+  width: 90px;
+  height: 26px;
+  border-radius: 3px;
+  top: -2px;
+}
+.control_Content .control_box_2 .bar_profile .right_bar_profile ul {
+  padding-left: 6px;
+  cursor: pointer;
+  display: inline-block;
+}
+.control_Content .control_box_2 .bar_profile .right_bar_profile ul li {
+  list-style-type: none;
+  display: inline-block;
+  height: 24px;
+  line-height: 30px;
+  font-size: .95rem;
+  position: relative;
+  top: 2px;
+  width: 44px;
+  height: 30px;
+  border-radius: 40px;
+  background: #f5f6f7;
+}
+.control_Content .control_box_2 .bar_profile .right_bar_profile ul li img {
+  width: 22px;
+  height: 22px;
+  filter: grayscale(100%);
+  opacity: .8;
+  position: relative;
+  top: 4px;
+  left: 10px;
+}
+.control_Content .control_box_2 .bar_profile .right_bar_profile ul li:hover {
+  background: rgba(149, 165, 166, 0.2);
+}
+.control_Content .control_box_2 .bar_profile .right_bar_profile ul li:hover img {
+  opacity: 1;
+}
+.control_Content .control_box_2 .content_middle_profile {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile {
+  display: inline-block;
+  width: 327px;
+  height: 326px;
+  border: 1px solid rgba(127, 140, 141, 0.2);
+  border-radius: 3px;
+  position: relative;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about .text_about {
+  display: block;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about .text_about h4 {
+  font-size: 1rem;
+  padding: 10px 0 0 8px;
+  color: #373737;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about .text_about p {
+  text-align: center;
+  font-size: .9rem;
+  color: #272727;
+  padding: 10px 0 0 20px;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about ul {
+  margin-top: 12px;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about ul li {
+  list-style-type: none;
+  padding-left: 12px;
+  padding-top: 4px;
+  cursor: pointer;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about ul li img {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about ul li p {
+  display: inline-block;
+  font-size: .9rem;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about ul li p span {
+  color: #365899;
+  cursor: pointer;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about .add_about {
+  display: block;
+  margin: 12px auto 0;
+  width: 100%;
+  height: 60px;
+  line-height: 18px;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about .add_about p {
+  font-size: .85rem;
+  text-align: center;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about .add_about p:nth-child(2) {
+  color: #3578e5;
+  text-align: center;
+  cursor: pointer;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about .add_about .add_other {
+  display: block;
+  margin: 0 auto;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about .add_about .add_other ul {
+  text-align: center;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about .add_about .add_other ul li {
+  display: inline-block;
+  border: 1px solid rgba(127, 140, 141, 0.4);
+  padding: 0 4px !important;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about .add_about .add_other ul li img {
+  opacity: .6;
+  position: relative;
+  top: 3px;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about .add_about .add_other ul li span {
+  color: #90949c;
+  font-size: .8rem;
+}
+.control_Content .control_box_2 .content_middle_profile .left_content_profile .about .add_about .add_other ul li:hover {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+}
+.control_Content .control_box_2 .content_middle_profile .right_content_profile {
+  display: inline-block;
+  width: 561px;
+  height: 300px;
+  position: relative;
+  right: -12px;
+}
+
+.font {
+  font-family: sans-serif;
+}
+
+/*# sourceMappingURL=style_.css.map */
