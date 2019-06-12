@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css_profile/style_.css">
     <link rel="stylesheet" href="css_people/style.css">
-    <title>Document</title>
+    <title>Mô phỏng mạng xã hội</title>
 </head>
 <body>
     <header>
@@ -21,7 +21,7 @@
             </div>
             <div class="next_pages">
                 <ul>
-                    <li><a href="#"><img src="img/linhz.jpg"><span>Đức Lĩnh</span></a></li>
+                    <li><a href="profile.html"><img src="img/linhz.jpg"><span>Đức Lĩnh</span></a></li>
                     <li><a href="index.html">Trang chủ</a></li>
                     <li><a href="#">Tìm bạn bè</a></li>
                     <li><a href="#">Tạo</a></li>
@@ -43,7 +43,7 @@
     <div class="control_Content">
         <div class="control_box_2">
                 <div class="friend_request">
-                    <p><span class="font_post">Trâm Anh</span> đã gửi cho bạn lời mời kết bạn </p>
+                    <p><span id="name_request" class="font_post"></span> đã gửi cho bạn lời mời kết bạn </p>
                     <button>Chấp nhận</button>
                     <button>Từ chối</button>
                 </div>
@@ -98,34 +98,35 @@
                             <p id="intro"></p>
                             <div class="add_other">
                                 <ul class="font">
-                                    <li><img src="img/instagram.png" alt="img"><span id="link_mxh_1">hotgirl_tramanh</span></li>
-                                    <li><img src="img/brand.png" alt="img"><span id="link_mxh_2">tramanh_xinhgai</span></li>
+                                    <li><img src="img/instagram.png" alt="img"><span id="link_mxh_1"></span></li>
+                                    <li><img src="img/brand.png" alt="img"><span id="link_mxh_2"></span></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="friends">
-                        
+                        <!--  -->
                     </div>
                 </div>
                 <div class="right_content_profile">
                     <div class="post_profile">
-                        <div class="post_head">
-                            <img src="img/hotgirl-tram-anh-ava.jpg" alt="error">
-                            <div class="post_title">
-                                <p><span class="font_post">Trâm Anh </span> cùng với <span class="font_post">Hoàng Anh </span> và 458 người khác</p>
-                                <p>15 tháng 5 lúc 20:48 · Công khai</p>
-                                <p>Bất ngờ chưa nè các bạn :)</p>
+                        <div class="post_head" id="post_head">
+                            <!-- Avt chua ghep DOM -->
+                            <!-- <img id="post_avt" src="img/hotgirl-tram-anh-ava.jpg" alt="error"> -->
+                            <div class="post_title" id="post_title">
+                                <p><span id="post_title_me" class="font_post"></span> cùng với <span id="post_title_you" class="font_post"></span> và <span id="post_title_number"></span> người khác</p>
+                                <p id="post_time"></p>
+                                <p id="post_status"></p>
                             </div>
                         </div>
-                        <div class="post_body">
+                        <div class="post_body" id="post_body">
                         </div>
-                        <div class="post_end">
+                        <div class="post_end" id="post_end">
                             <div class="post_end_1">
                                 <img src="img/in-love.png" alt="error">
                                 <img src="img/like.png" alt="error">
                                 <img src="img/scared.png" alt="error">
-                                <p> <span class="font_post">Hoàng Anh</span> và <span class="font_post">18.526.658</span> thích điều này</p>
+                                <p> <span id="post_firend_like" class="font_post"></span> và <span id="post_like" class="font_post"></span> thích điều này</p>
                                 <hr/>
                             </div>
                             <div class="post_end_2">
@@ -149,7 +150,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="right_content_profile"></div> -->
             </div>
         </div>
     </div>
