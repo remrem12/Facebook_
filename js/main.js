@@ -8,16 +8,8 @@
     };
     getArr();
 
-// 
-
-    var tram_anh = document.getElementById('get_tramAnh');
-    var da_Sha= document.getElementById('get_daSha');
-
-    // da_Sha.onclick = daSha();
-    // tram_anh.onload = tramAnh();
-    
-    
-    window.onload = daSha;
+    // var tram_anh = document.getElementById('get_tramAnh').value;
+    // var da_Sha= document.getElementById('get_daSha').value;
 
 
     function tramAnh() {
@@ -49,10 +41,61 @@
     };
 
     function daSha() {
-        name_request.innerText = "asdasd"
-        name_user.innerText = "Trâm Aasdasdnh";
-    };
-    // window.onload = daSha;
+        name_request.innerText = "Dasha Taran";
+        name_user.innerText = "Dasha Taran";
+        name_title.innerText = '" Милая девушка "';
+        text_about_p.innerText = "Яркая любовь все еще ярче, чем любовь в темноте";
+        from.innerText = "Красивая русская деревня - Россия";
+        live.innerText = "Москва - Rusia";
+        school.innerText = "Русский университет";
+        job.innerText = "модель";
+        follow.innerText = "45.201.321 người";
+        intro.innerText = "Невинные девушки всегда самые сбитые с толку золотые олени.";
+        link_mxh_1.innerText = "Dasha_Taran";
+        link_mxh_2.innerText = "Dasha_Taran";
+        post_title_me.innerText = "Dasha Taran";
+        post_title_you.innerText = "Hữu Thạch";
+        post_title_number.innerText = "325"
+        post_time.innerText = "21 tháng 5 lúc 00:48 · Công khai";
+        post_status.innerText = "Bлюблю не смотреть";
+        post_firend_like.innerText = "Hữu Thạch";
+        post_like.innerText = "45.989.830";
 
-// }
-// getPeople();
+        // anh bia
+        profile_bgd_img.style.background = 'url("../img/dasha.jpg")'; 
+        // avt
+        profile_bgd_img.insertAdjacentHTML('beforeEnd','<img src="' + '../img/c2.jpg' + '">');
+        post_head.insertAdjacentHTML('afterBegin','<img src="' + '../img/c2.jpg' + '">');
+        post_body.style.backgroundImage = "url('../img/post_dasha.jpg')";
+
+    };
+
+    function thuyLinh() {
+        name_request.innerText = "Hoàng Thùy Linh";
+        name_user.innerText = "Hoàng Thùy Linh";
+        name_title.innerText = '" Cô Pé Vàng Anh "';
+        text_about_p.innerText = "Quá khứ mãi mãi là quá khú";
+        from.innerText = "Thủ đô Hà Nội, Việt Nam";
+        live.innerText = "Thủ đô Hà Nội, Việt Nam";
+        school.innerText = "Cao đẳng nghệ thuật Hà Nội";
+        job.innerText = "Ca sĩ, Diễn viên";
+        follow.innerText = "41.210.231 người";
+        intro.innerText = "Uống rượu say say rồi lại tỉnh, Yêu nhau vào tỉnh tỉnh rồi lại say .";
+        link_mxh_1.innerText = "thuylinh_cute";
+        link_mxh_2.innerText = "thuylinh_love";
+        post_title_me.innerText = "Hoàng Thùy Linh";
+        post_title_you.innerText = "Cường Tỏi";
+        post_title_number.innerText = "120"
+        post_time.innerText = "31 tháng 1 lúc 14:48 · Công khai";
+        post_status.innerText = "Thế nào là yêu???";
+        post_firend_like.innerText = "Cường Tỏi";
+        post_like.innerText = "12.458.120";
+
+        // anh bia
+        profile_bgd_img.style.background = 'url("../img/thuylinhb.jpg")'; 
+        // avt
+        profile_bgd_img.insertAdjacentHTML('beforeEnd','<img src="' + '../img/hqdefault.jpg' + '">');
+        post_head.insertAdjacentHTML('afterBegin','<img src="' + '../img/hqdefault.jpg' + '">');
+        post_body.style.backgroundImage = "url('../img/postlinh.jpg')";
+
+    };
