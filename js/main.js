@@ -33,9 +33,9 @@
         post_firend_like.innerText = "Hoàng Anh";
         post_like.innerText = "18.526.658";
 
-                            profile_bgd_img.style.background = 'url("../img/tram-anh-1-15399422000782094206671.png")'; 
-        profile_bgd_img.insertAdjacentHTML('beforeEnd','<img src="' + '../img/hotgirl-tram-anh-ava.jpg' + '">');
-        post_head.insertAdjacentHTML('afterBegin','<img src="' + '../img/hotgirl-tram-anh-ava.jpg' + '">');
+                            profile_bgd_img.style.background = 'url("./img/tram-anh-1-15399422000782094206671.png")'; 
+        profile_bgd_img.insertAdjacentHTML('beforeEnd','<img src="' + './img/hotgirl-tram-anh-ava.jpg' + '">');
+        post_head.insertAdjacentHTML('afterBegin','<img src="' + './img/hotgirl-tram-anh-ava.jpg' + '">');
     };
 
     function daSha() {
@@ -62,9 +62,9 @@
         // anh bia
         profile_bgd_img.style.background = 'url("../img/dasha.jpg")'; 
         // avt
-        profile_bgd_img.insertAdjacentHTML('beforeEnd','<img src="' + '../img/c2.jpg' + '">');
-        post_head.insertAdjacentHTML('afterBegin','<img src="' + '../img/c2.jpg' + '">');
-        post_body.style.backgroundImage = "url('../img/post_dasha.jpg')";
+        profile_bgd_img.insertAdjacentHTML('beforeEnd','<img src="' + './img/c2.jpg' + '">');
+        post_head.insertAdjacentHTML('afterBegin','<img src="' + './img/c2.jpg' + '">');
+        post_body.style.backgroundImage = "url('./img/post_dasha.jpg')";
 
     };
 
@@ -92,8 +92,8 @@
         // anh bia
         profile_bgd_img.style.background = 'url("../img/thuylinhb.jpg")'; 
         // avt
-        profile_bgd_img.insertAdjacentHTML('beforeEnd','<img src="' + '../img/hqdefault.jpg' + '">');
-        post_head.insertAdjacentHTML('afterBegin','<img src="' + '../img/hqdefault.jpg' + '">');
-        post_body.style.backgroundImage = "url('../img/postlinh.jpg')";
+        profile_bgd_img.insertAdjacentHTML('beforeEnd','<img src="' + './img/hqdefault.jpg' + '">');
+        post_head.insertAdjacentHTML('afterBegin','<img src="' + './img/hqdefault.jpg' + '">');
+        post_body.style.backgroundImage = "url('./img/postlinh.jpg')";
 
     };
