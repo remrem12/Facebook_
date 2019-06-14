@@ -33,9 +33,7 @@
         post_firend_like.innerText = "Hoàng Anh";
         post_like.innerText = "18.526.658";
 
-        // anh bia
-        profile_bgd_img.style.background = 'url("../img/tram-anh-1-15399422000782094206671.png")'; 
-        // avt
+                            profile_bgd_img.style.background = 'url("../img/tram-anh-1-15399422000782094206671.png")'; 
         profile_bgd_img.insertAdjacentHTML('beforeEnd','<img src="' + '../img/hotgirl-tram-anh-ava.jpg' + '">');
         post_head.insertAdjacentHTML('afterBegin','<img src="' + '../img/hotgirl-tram-anh-ava.jpg' + '">');
     };
