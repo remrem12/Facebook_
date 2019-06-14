@@ -60,7 +60,7 @@
         post_like.innerText = "45.989.830";
 
         // anh bia
-        profile_bgd_img.style.background = 'url("../img/dasha.jpg")'; 
+        profile_bgd_img.style.background = 'url("./img/dasha.jpg")'; 
         // avt
         profile_bgd_img.insertAdjacentHTML('beforeEnd','<img src="' + './img/c2.jpg' + '">');
         post_head.insertAdjacentHTML('afterBegin','<img src="' + './img/c2.jpg' + '">');
@@ -90,7 +90,7 @@
         post_like.innerText = "12.458.120";
 
         // anh bia
-        profile_bgd_img.style.background = 'url("../img/thuylinhb.jpg")'; 
+        profile_bgd_img.style.background = 'url("./img/thuylinhb.jpg")'; 
         // avt
         profile_bgd_img.insertAdjacentHTML('beforeEnd','<img src="' + './img/hqdefault.jpg' + '">');
         post_head.insertAdjacentHTML('afterBegin','<img src="' + './img/hqdefault.jpg' + '">');
