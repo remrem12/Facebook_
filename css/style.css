@@ -511,9 +511,13 @@ body .control_Content .control_box .Three .event .event_two ul li .control_text_
 
 body .control_Content .control_box .Three .event .event_two ul li .control_text_two h2 {
   font-size: .85rem;
+  padding-bottom: 2px;
+}
+
+body .control_Content .control_box .Three .event .event_two ul li .control_text_two h2 a {
   color: #365899;
   font-family: sans-serif;
-  padding-bottom: 2px;
+  text-decoration: none;
 }
 
 body .control_Content .control_box .Three .event .event_two ul li .control_text_two p {
