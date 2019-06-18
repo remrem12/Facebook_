@@ -67,6 +67,7 @@
   border-radius: 50%;
   display: block;
   float: left;
+  border: solid 2px #fff;
 }
 
 .right_content_profile .post_profile .post_head .post_title {
