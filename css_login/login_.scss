@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #EEE6FF;
+    font-size: 16px;
+    width: 100%;
+    font-family: sans-serif;
+    .all {
+        display: block;
+        width: 100%;
+        background: #3b5998;
+        height: 82px;
+        border-bottom: 1px solid #133783;
+        .header{
+            display: block;
+            margin: 0 auto;
+            max-width: 1366px;
+            height: 82px;
+            .logo {
+                width: 50%;
+                flex-direction: row;
+                display: block;
+                float: left;
+                height: 82px;
+                img {
+                    width: 170px;
+                    height: 34px;
+                    position: relative;
+                    top: 30px;
+                    left: 160px;
+                }
+            }
+            .login {
+                width: 50%;
+                display: block;
+                float: left;
+                height: 82px;
+                .form-login {
+                    position: relative;
+                    top: 28px;
+                    width: 500px;
+                    left: 20px;
+                    input {
+                        width: 150px;
+                        height: 24px;
+                        padding-left: 6px; 
+                        border: solid 1px #1d2a5b;
+                        box-sizing: border-box;
+                    }
+                    button {
+                        width: 76px;
+                        height: 24px;
+                        border-radius: 2px;
+                        border: solid 1px #283b80;
+                        background: #4267b2;
+                        outline: none;
+                        color: #f5f5f5;
+                        &:hover {
+                            background: #3b5998;
+                        }
+                    }
+                    a {
+                        display: block;
+                        position: relative;
+                        top: 2px;
+                        left: 156px;
+                        padding-top: 5px;
+                        text-decoration: none;
+                        font-size: 0.8rem;
+                        color: #fff;
+                        height: 17px;
+                        width: 141px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .main {
+            max-width: 1366px;
+            display: block;
+            margin: 0 auto;
+            .main-1 {
+                width: 49%;
+                float: left;
+                height: 500px;
+                .title-page {
+                    font-size: 1.25rem;
+                    padding: 1px 1px;
+                    padding: 26px 40px;
+                }
+                img {
+                    width: 537px;
+                    height: 195px;
+                    display: block;
+                    float: left;
+                    margin-left: 40px;
+                }
+            }
+            .main-2 {
+                width: 49%;
+                float: left;
+                height: 600px;
+                position: relative;
+                left: 20px;
+                h1 {
+                    font-size: 2.25rem;
+                    padding: 30px 0px 0px;
+                }
+                h4 {
+                    font-size: 1.1875rem;
+                    padding: 10px 0px;
+                    font-weight: initial;
+                }
+                .createFullname input {
+                    display: inline-block;
+                    width: 194px;
+                    height: 44px;
+                    font-size: 1.2rem;
+                    border: 1px rgb(201, 201, 201) solid;
+                    border-radius: 4px;
+                    padding: 5px 10px;
+                    box-sizing: border-box;
+                }
+                .createOrther input {
+                    display: block;
+                    margin: 6px 0px 3px 0px;
+                    width: 390px;
+                    height: 44px;
+                    font-size: 1.2rem;
+                    padding: 5px 10px;
+                    border: 1px rgb(201, 201, 201) solid;
+                    border-radius: 4px; 
+                    box-sizing: border-box;
+                }
+                .createDateBorn {
+                    margin: 16px 0px;
+                }
+                h3 {
+                    color: rgb(87, 87, 87);
+                    font-weight: bold;
+                    padding-bottom: 4px;
+                }
+                .createDateBorn select {
+                    width: auto;
+                    height: 36px;
+                    box-sizing: border-box;
+                    margin-right: -3px;
+                    padding: 8px;
+                }
+                .sex {
+                    cursor: pointer;
+                }
+                input[name="sex"] {
+                    width: 22px;
+                    height: 18px;
+                }
+                .sex p {
+                    font-size: 0.6875rem;
+                    padding: 30px 0px;
+                }
+                .enter {
+                    background: #69a74e;
+                    width: 194px;
+                    height: 40px;
+                    border: none;
+                    color: #fff;
+                    font-weight: bold;
+                    font-size: 1.2rem;
+                    border: 1px solid rgb(75, 75, 75);
+                    border-radius: 3px;
+                    outline: none;
+                }
+                .enter:hover {
+                    background: linear-gradient(#69a74eb9, #69a74e);
+                }
+            }
+        }
+    }
+}

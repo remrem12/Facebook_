@@ -1,4 +1,18 @@
 // function getPeople () {
+    function GET_ACCOUNT() {
+        var acc = document.forms['form_login']['acc'].value;
+        var pass = document.forms['form_login']['pass'].value;
+            if(acc == "tranduclinh" && pass == "123456") {
+                window.open('index.html', '_top');
+            }
+            else if (acc == undefined || pass == undefined) {
+                alert("Không thể bỏ trống 1 trong 2 thông tin trên.")
+            }
+            else {
+                alert("Đăng nhập sai tài khoảng hoặc mật khẩu.")
+            }
+    }
+
 
     const arr = ['name_user', 'name_title', 'text_about_p', 'from', 'live', 'school', 'job', 'follow', 'intro', 'link_mxh_1', 'link_mxh_2', 'head_bgd_img', 'profile_bgd_img', 'post_head', 'post_body', 'post_end', 'post_avt', 'post_title_me', 'post_title_you', 'post_title_number', 'post_time', 'post_status', 'post_firend_like', 'post_like', 'name_request', 'get_tramAnh', 'get_daSha', 'get_thuyLinh'];
     const getArr = () => {
@@ -16,20 +30,20 @@
         name_request.innerText = "Trâm Anh";
         name_user.innerText = "Trâm Anh";
         name_title.innerText = '" Hot Girl Dược Sĩ "';
-        text_about_p.innerText = "Bạn có thấy nốt ruồi đen hông nè :v";
+        text_about_p.innerText = "Là một cô gái nhạy cảm với những điều xung quanh.";
         from.innerText = "Lai Thành, Thanh Hóa, Việt Nam";
         live.innerText = "Thủ đô Hà Nội, Việt Nam";
         school.innerText = "trường Cao Đẳng Dược Phú Thọ";
         job.innerText = "Dược sĩ bán thuốc";
         follow.innerText = "12.458.235 người";
-        intro.innerText = "Tình yêu thoáng rồi đi. Tiền tài và danh vọng chã làm được gì. Lộ clip rồi thì xóa sao cho được.";
+        intro.innerText = "Nếu ai đó cho tôi làm lại từ đầu, tôi sẽ từ chối tình yêu dối trá từ anh.";
         link_mxh_1.innerText = "hotgirl_tramanh";
         link_mxh_2.innerText = "tramanh_xinhgai";
         post_title_me.innerText = "Trâm Anh";
         post_title_you.innerText = "Hoàng Anh";
         post_title_number.innerText = "895"
         post_time.innerText = "15 tháng 5 lúc 20:48 · Công khai";
-        post_status.innerText = "Bất ngờ chưa nè các bạn :)";
+        post_status.innerText = "Điều gì làm anh bất ngờ?";
         post_firend_like.innerText = "Hoàng Anh";
         post_like.innerText = "18.526.658";
 

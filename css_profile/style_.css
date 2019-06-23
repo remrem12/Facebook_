@@ -228,6 +228,7 @@
 .control_Content .control_box_2 .content_middle_profile .left_content_profile .about .add_about p {
   font-size: .85rem;
   text-align: center;
+  padding: 0 4px 0 4px;
 }
 
 .control_Content .control_box_2 .content_middle_profile .left_content_profile .about .add_about p:nth-child(2) {
