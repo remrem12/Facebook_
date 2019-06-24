@@ -473,14 +473,31 @@ body {
 				top: 43px;
 				right: 0;
 				width: 205px;
-				height: 600px;
+				height: auto;
 				background: transparent;
+				// background: #365899;
+				border: 1px solid rgba(127, 140, 141,.2);
+				border-radius: 0 0 0 4px;
 				z-index: 12;
 				.control_list {
 					display: block;
-					border: 1px solid rgba(127, 140, 141,.2);
 					border-right: none;
-					border-radius: 0 0 0 4px;
+					height: 400px;
+					overflow-y: scroll;
+					&::-webkit-scrollbar {
+						width: 5px;
+					  }
+					&::-webkit-scrollbar-track {
+					box-shadow: inset 0 0 5px grey; 
+					border-radius: 10px;
+					}
+					&::-webkit-scrollbar-thumb {
+						background: rgb(104, 104, 104); 
+						border-radius: 10px;
+					}
+					&::-webkit-scrollbar-thumb:hover {
+						background: #6b6b6b; 
+					  }
 					ul {
 						display: block;
 						li {
@@ -491,7 +508,7 @@ body {
 							// background: #2cdacf;
 							margin: 2px 0;
 							.friends {
-								width: 190px;
+								width: 186px;
 								height: auto;
 								display: inline-block;
 								img:nth-child(1) {
@@ -515,14 +532,14 @@ body {
 								}
 								p:nth-child(3) {
 									color: #a9a9a9;
-									padding-left: 16px;
+									padding-left: 8px;
 								}
 								img:nth-child(3) {
 									width: 28px;
 									height: 28px;
-									opacity: .02;
+									opacity: .04;
 									position: relative;
-									left: 24px;
+									left: 10px;
 								}
 							}
 							.action {
@@ -552,40 +569,40 @@ body {
 									}
 							}
 						} 
-						.search_friends {
-							display: block;
-							width: auto;
-							height: 30px;
-							background: #fff;
-							border-radius: 0 0 0 4px;
-							input {
-								display: inline-block;
-								position: relative;
-								top: 2px;
-								width: 115px;
-								height: 26px;
-								outline: none;
-								border: none;
-								padding-left: 15px;
-								box-sizing: borer-box;
-								border-radius: 0 0 0 4px;
-							}
-							.control_sear_friends {
-								display: inline-block;
-								img {
-									display: inline-block;
-									margin-right: 2px;
-									position: relative;
-									top: 6px;
-									right: 4px;
-									width: 18px;
-									height: 18px;
-									opacity: .3;
-								}
-								img:hover {
-									opacity: .6;
-								}
-							}
+					}
+				}
+				.search_friends {
+					display: block;
+					width: 210px;;
+					height: 30px;
+					background: #fff;
+					border-radius: 0 0 0 4px;
+					input {
+						display: inline-block;
+						position: relative;
+						top: 2px;
+						width: 115px;
+						height: 26px;
+						outline: none;
+						border: none;
+						padding-left: 15px;
+						box-sizing: borer-box;
+						border-radius: 0 0 0 4px;
+					}
+					.control_sear_friends {
+						display: inline-block;
+						.img_search {
+							display: inline-block;
+							margin-right: 2px;
+							position: relative;
+							top: 6px;
+							right: 4px;
+							width: 18px;
+							height: 18px;
+							opacity: .3;
+						}
+						.img_search:hover {
+							opacity: .6;
 						}
 					}
 				}

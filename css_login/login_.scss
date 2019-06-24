@@ -98,6 +98,22 @@ body {
                     margin-left: 40px;
                 }
             }
+            .password_ {
+                width: 300px;
+                height: 180px;
+                background: rgba(197, 181, 255, 0.788);
+                position: absolute;
+                top: 200px;
+                left: 420px;
+                z-index: 40;
+                border-radius: 10px;
+                h5 {
+                    text-align: center;
+                    line-height: 90px;
+                    font-size: 1.2rem;
+                    color: #444444;
+                }
+            }
             .main-2 {
                 width: 49%;
                 float: left;

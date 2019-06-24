@@ -1,9 +1,11 @@
-// function getPeople () {
-    function GET_ACCOUNT() {
+const arr = ['name_user', 'name_title', 'text_about_p', 'from', 'live', 'school', 'job', 'follow', 'intro', 'link_mxh_1', 'link_mxh_2', 'head_bgd_img', 'profile_bgd_img', 'post_head', 'post_body', 'post_end', 'post_avt', 'post_title_me', 'post_title_you', 'post_title_number', 'post_time', 'post_status', 'post_firend_like', 'post_like', 'name_request', 'get_tramAnh', 'get_daSha', 'get_thuyLinh'];
+
+    GET_ACCOUNT = () => {
         var acc = document.forms['form_login']['acc'].value;
         var pass = document.forms['form_login']['pass'].value;
+        console.log(acc, pass)
             if(acc == "tranduclinh" && pass == "123456") {
-                window.open('index.html', '_top');
+                window.open('home.html', '_top');
             }
             else if (acc == undefined || pass == undefined) {
                 alert("Không thể bỏ trống 1 trong 2 thông tin trên.")
@@ -13,18 +15,12 @@
             }
     }
 
-
-    const arr = ['name_user', 'name_title', 'text_about_p', 'from', 'live', 'school', 'job', 'follow', 'intro', 'link_mxh_1', 'link_mxh_2', 'head_bgd_img', 'profile_bgd_img', 'post_head', 'post_body', 'post_end', 'post_avt', 'post_title_me', 'post_title_you', 'post_title_number', 'post_time', 'post_status', 'post_firend_like', 'post_like', 'name_request', 'get_tramAnh', 'get_daSha', 'get_thuyLinh'];
     const getArr = () => {
         for(let i=0; i>arr.length; i++) {
             return arr[i] = document.getElementById("'"+a[i]+"'");
         }
     };
     getArr();
-
-    // var tram_anh = document.getElementById('get_tramAnh').value;
-    // var da_Sha= document.getElementById('get_daSha').value;
-
 
     function tramAnh() {
         name_request.innerText = "Trâm Anh";
@@ -46,8 +42,7 @@
         post_status.innerText = "Điều gì làm anh bất ngờ?";
         post_firend_like.innerText = "Hoàng Anh";
         post_like.innerText = "18.526.658";
-
-                            profile_bgd_img.style.background = 'url("./img/tram-anh-1-15399422000782094206671.png")'; 
+        profile_bgd_img.style.background = 'url("./img/tram-anh-1-15399422000782094206671.png")'; 
         profile_bgd_img.insertAdjacentHTML('beforeEnd','<img src="' + './img/hotgirl-tram-anh-ava.jpg' + '">');
         post_head.insertAdjacentHTML('afterBegin','<img src="' + './img/hotgirl-tram-anh-ava.jpg' + '">');
     };
@@ -72,10 +67,7 @@
         post_status.innerText = "Bлюблю не смотреть";
         post_firend_like.innerText = "Hữu Thạch";
         post_like.innerText = "45.989.830";
-
-        // anh bia
         profile_bgd_img.style.background = 'url("./img/dasha.jpg")'; 
-        // avt
         profile_bgd_img.insertAdjacentHTML('beforeEnd','<img src="' + './img/c2.jpg' + '">');
         post_head.insertAdjacentHTML('afterBegin','<img src="' + './img/c2.jpg' + '">');
         post_body.style.backgroundImage = "url('./img/post_dasha.jpg')";
@@ -99,13 +91,10 @@
         post_title_you.innerText = "Cường Tỏi";
         post_title_number.innerText = "120"
         post_time.innerText = "31 tháng 1 lúc 14:48 · Công khai";
-        post_status.innerText = "Thế nào là yêu???";
+        post_status.innerText = "Nếu ai hỏi tào lao về quá khứ, tôi sẽ gửi lá ngót đến tận nhà.";
         post_firend_like.innerText = "Cường Tỏi";
         post_like.innerText = "12.458.120";
-
-        // anh bia
         profile_bgd_img.style.background = 'url("./img/thuylinhb.jpg")'; 
-        // avt
         profile_bgd_img.insertAdjacentHTML('beforeEnd','<img src="' + './img/hqdefault.jpg' + '">');
         post_head.insertAdjacentHTML('afterBegin','<img src="' + './img/hqdefault.jpg' + '">');
         post_body.style.backgroundImage = "url('./img/postlinh.jpg')";
