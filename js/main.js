@@ -1,4 +1,4 @@
-const arr = ['name_user', 'name_title', 'text_about_p', 'from', 'live', 'school', 'job', 'follow', 'intro', 'link_mxh_1', 'link_mxh_2', 'head_bgd_img', 'profile_bgd_img', 'post_head', 'post_body', 'post_end', 'post_avt', 'post_title_me', 'post_title_you', 'post_title_number', 'post_time', 'post_status', 'post_firend_like', 'post_like', 'name_request', 'get_tramAnh', 'get_daSha', 'get_thuyLinh'];
+const arr = ['name_user', 'name_title', 'text_about_p', 'from', 'live', 'school', 'job', 'follow', 'intro', 'link_mxh_1', 'link_mxh_2', 'head_bgd_img', 'profile_bgd_img', 'post_head', 'post_body', 'post_end', 'post_avt', 'post_title_me', 'post_title_you', 'post_title_number', 'post_time', 'post_status', 'post_firend_like', 'post_like', 'name_request'];
 
     GET_ACCOUNT = () => {
         var acc = document.forms['form_login']['acc'].value;
@@ -21,6 +21,9 @@ const arr = ['name_user', 'name_title', 'text_about_p', 'from', 'live', 'school'
         }
     };
     getArr();
+
+    let mouse_over_postBody = document.querySelector('#post_body');
+    console.log(mouse_over_postBody);
 
     function tramAnh() {
         name_request.innerText = "Trâm Anh";
