@@ -36,8 +36,8 @@ for(let i = 0; i<hover_friends.length; i++) {
                 infor_friend_bgr.id = 'infor_bgr_action'; // Background.
                 infor_control_name.id = 'infor_name';
 
-                information_timefriends_img.src = '../img_thum/handshake.png';
-                information_locationfriends_img.src = '../img_thum/placeholder.png';
+                information_timefriends_img.src = './img_thumbnail/handshake.png';
+                information_locationfriends_img.src = './img_thumbnail/placeholder.png';
                 
                 information_friends.id = 'control_infor_friends';
                 information_friends_son.id = 'control_infor_friends_son';
@@ -67,130 +67,130 @@ for(let i = 0; i<hover_friends.length; i++) {
 
                 switch (a[i].value) {
                     case 0:
-                        infor_friend_bgr.style.backgroundImage = "url('../img_thum/bgr_chanh.jpg')";
-                        infor_img_avt.src = '../img_thum/chanh.jpg'; // Avt.
+                        infor_friend_bgr.style.backgroundImage = "url('./img_thumbnail/bgr_chanh.jpg')";
+                        infor_img_avt.src = './img_thumbnail/chanh.jpg'; // Avt.
                         infor_your_name.textContent = 'Minh Chánh'; // Name
                         infor_pseudonym_name.textContent = 'N_ắng'; // Title name
                         information_timefriends_text.textContent = 'Là bạn bè từ năm 2002.'; // long time friends
                         information_locationfriends_text.textContent = 'Đến từ Ninh Hòa-Khánh Hòa.'; // Location friends
-                        infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('../img_thum/footed_chanh.jpg')";
+                        infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('./img_thumbnail/footed_chanh.jpg')";
                         break;
                     case 1:
-                            infor_friend_bgr.style.backgroundImage = "url('../img_thum/bgr_khang.jpg')";
-                            infor_img_avt.src = '../img_thum/khang.jpg'; // Avt.
+                            infor_friend_bgr.style.backgroundImage = "url('./img_thumbnail/bgr_khang.jpg')";
+                            infor_img_avt.src = './img_thumbnail/khang.jpg'; // Avt.
                             infor_your_name.textContent = 'Khang Hi'; // Name
                             infor_pseudonym_name.textContent = 'Cuộc sống là một ca khúc ...'; // Title name
                             information_timefriends_text.textContent = 'Bạn bè với nhau từ năm 2009.'; // long time friends
                             information_locationfriends_text.textContent = 'Đến từ Ninh Hòa-Khánh Hòa.'; // Location friends
-                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('../img_thum/footed_khang.jpg')";
+                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('./img_thumbnail/footed_khang.jpg')";
                             break;
                     case 2:
-                            infor_friend_bgr.style.backgroundImage = "url('../img_thum/bgr_phap.jpg')";
-                            infor_img_avt.src = '../img_thum/phap.jpg'; // Avt.
+                            infor_friend_bgr.style.backgroundImage = "url('./img_thumbnail/bgr_phap.jpg')";
+                            infor_img_avt.src = './img_thumbnail/phap.jpg'; // Avt.
                             infor_your_name.textContent = 'Anh Pha'; // Name
                             infor_pseudonym_name.textContent = 'Trần Lữ Lan Nhi <3'; // Title name
                             information_timefriends_text.textContent = 'Là bạn bè từ năm 2002.'; // long time friends
                             information_locationfriends_text.textContent = 'Đến từ Ninh Hòa-Khánh Hòa.'; // Location friends
-                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('../img_thum/footed_phap.jpg')";
+                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('./img_thumbnail/footed_phap.jpg')";
                             break;
                     case 3:
-                            infor_friend_bgr.style.backgroundImage = "url('../img_thum/bgr_mi.jpg')";
-                            infor_img_avt.src = '../img_thum/mi.jpg'; // Avt.
+                            infor_friend_bgr.style.backgroundImage = "url('./img_thumbnail/bgr_mi.jpg')";
+                            infor_img_avt.src = './img_thumbnail/mi.jpg'; // Avt.
                             infor_your_name.textContent = 'Hồng Mi'; // Name
                             infor_pseudonym_name.textContent = 'Thế giới này màu gì nhỉ?'; // Title name
                             information_timefriends_text.textContent = 'Bạn bè với nhau năm 2009.'; // long time friends
                             information_locationfriends_text.textContent = 'Đến từ Ninh Hòa-Khánh Hòa.'; // Location friends
-                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('../img_thum/footed_mi.jpg')";
+                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('./img_thumbnail/footed_mi.jpg')";
                             break;
                     case 4:
-                            infor_friend_bgr.style.backgroundImage = "url('../img_thum/bgr_trang.jpg')";
-                            infor_img_avt.src = '../img_thum/trang.jpg'; // Avt.
+                            infor_friend_bgr.style.backgroundImage = "url('./img_thumbnail/bgr_trang.jpg')";
+                            infor_img_avt.src = './img_thumbnail/trang.jpg'; // Avt.
                             infor_your_name.textContent = 'Trang Thuy Trang'; // Name
                             infor_pseudonym_name.textContent = '👱🏻‍👱🏻‍Be you - Be cool💋💋'; // Title name
                             information_timefriends_text.textContent = 'Đối tác với nhau từ năm 2019.'; // long time friends
                             information_locationfriends_text.textContent = 'Đến từ thủ đô Hà Nội.'; // Location friends
-                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('../img_thum/footed_trang.jpg')";
+                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('./img_thumbnail/footed_trang.jpg')";
                     break;
                     case 5:
-                            infor_friend_bgr.style.backgroundImage = "url('../img_thum/bgr_my.jpg')";
-                            infor_img_avt.src = '../img_thum/my.jpg'; // Avt.
+                            infor_friend_bgr.style.backgroundImage = "url('./img_thumbnail/bgr_my.jpg')";
+                            infor_img_avt.src = './img_thumbnail/my.jpg'; // Avt.
                             infor_your_name.textContent = 'Nguyễn Hoàng My'; // Name
                             infor_pseudonym_name.textContent = 'Mọi thứ đều sẽ ổn cã thôi'; // Title name
                             information_timefriends_text.textContent = 'Bạn bè với nhau từ năm 2009.'; // long time friends
                             information_locationfriends_text.textContent = 'Đến từ Ninh Hòa-Khánh Hòa.'; // Location friends
-                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('../img_thum/footed_my.jpg')";
+                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('./img_thumbnail/footed_my.jpg')";
                     break;
                     case 6:
-                            infor_friend_bgr.style.backgroundImage = "url('../img_thum/bgr_linh.jpg')";
-                            infor_img_avt.src = '../img_thum/linh.jpg'; // Avt.
+                            infor_friend_bgr.style.backgroundImage = "url('./img_thumbnail/bgr_linh.jpg')";
+                            infor_img_avt.src = './img_thumbnail/linh.jpg'; // Avt.
                             infor_your_name.textContent = 'Diệu Linh'; // Name
                             infor_pseudonym_name.textContent = 'Tôi thích nghe mọi người nói về tôi'; // Title name
                             information_timefriends_text.textContent = 'Bạn bè với nhau từ năm 2015.'; // long time friends
                             information_locationfriends_text.textContent = 'Đến từ Ninh Hòa-Khánh Hòa.'; // Location friends
-                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('../img_thum/footed_linh.jpg')";
+                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('./img_thumbnail/footed_linh.jpg')";
                     break;
                     case 7:
-                            infor_friend_bgr.style.backgroundImage = "url('../img_thum/bgr_ha.jpg')";
-                            infor_img_avt.src = '../img_thum/ha.jpg'; // Avt.
+                            infor_friend_bgr.style.backgroundImage = "url('./img_thumbnail/bgr_ha.jpg')";
+                            infor_img_avt.src = './img_thumbnail/ha.jpg'; // Avt.
                             infor_your_name.textContent = 'Nguyễn Thanh Hà'; // Name
                             infor_pseudonym_name.textContent = ' '; // Title name
                             information_timefriends_text.textContent = 'Trở thành bạn bè từ 2002.'; // long time friends
                             information_locationfriends_text.textContent = 'Đến từ Ninh Hòa-Khánh Hòa.'; // Location friends
-                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('../img_thum/footed_ha.jpg')";
+                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('./img_thumbnail/footed_ha.jpg')";
                     break;
                     case 8:
-                            infor_friend_bgr.style.backgroundImage = "url('../img_thum/bgr_duyen.jpg')";
-                            infor_img_avt.src = '../img_thum/duyen.jpg'; // Avt.
+                            infor_friend_bgr.style.backgroundImage = "url('./img_thumbnail/bgr_duyen.jpg')";
+                            infor_img_avt.src = './img_thumbnail/duyen.jpg'; // Avt.
                             infor_your_name.textContent = 'Phan Duyên'; // Name
                             infor_pseudonym_name.textContent = 'Sóc Nâu'; // Title name
                             information_timefriends_text.textContent = 'Bạn bè với nhau từ năm 2009.'; // long time friends
                             information_locationfriends_text.textContent = 'Đến từ Ninh Hòa-Khánh Hòa.'; // Location friends
-                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('../img_thum/footed_duyen.jpg')";
+                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('./img_thumbnail/footed_duyen.jpg')";
                         break;
                         case 9:
-                            infor_friend_bgr.style.backgroundImage = "url('../img_thum/bgr_ly.jpg')";
-                            infor_img_avt.src = '../img_thum/ly.jpg'; // Avt.
+                            infor_friend_bgr.style.backgroundImage = "url('./img_thumbnail/bgr_ly.jpg')";
+                            infor_img_avt.src = './img_thumbnail/ly.jpg'; // Avt.
                             infor_your_name.textContent = 'Pé Ly'; // Name
                             infor_pseudonym_name.textContent = 'Lười'; // Title name
                             information_timefriends_text.textContent = 'Bạn bè với nhau từ năm 2017.'; // long time friends
                             information_locationfriends_text.textContent = 'Đến từ thành phố Đắk Lắk.'; // Location friends
-                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('../img_thum/footed_ly.jpg')";
+                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('./img_thumbnail/footed_ly.jpg')";
                         break;
                         case 10:
-                            infor_friend_bgr.style.backgroundImage = "url('../img_thum/bgr_tram.jpg')";
-                            infor_img_avt.src = '../img_thum/tram.jpg'; // Avt.
+                            infor_friend_bgr.style.backgroundImage = "url('./img_thumbnail/bgr_tram.jpg')";
+                            infor_img_avt.src = './img_thumbnail/tram.jpg'; // Avt.
                             infor_your_name.textContent = 'Thu Trâm'; // Name
                             infor_pseudonym_name.textContent = ''; // Title name
                             information_timefriends_text.textContent = '...'; // long time friends
                             information_locationfriends_text.textContent = 'Đến từ Ninh Hòa-Khánh Hòa.'; // Location friends
-                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('../img_thum/footed_tram.jpg')";
+                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('./img_thumbnail/footed_tram.jpg')";
                     break;
                     case 11:
-                            infor_friend_bgr.style.backgroundImage = "url('../img_thum/bgr_hau.jpg')";
-                            infor_img_avt.src = '../img_thum/hau.jpg'; // Avt.
+                            infor_friend_bgr.style.backgroundImage = "url('./img_thumbnail/bgr_hau.jpg')";
+                            infor_img_avt.src = './img_thumbnail/hau.jpg'; // Avt.
                             infor_your_name.textContent = 'Phúc Hậu'; // Name
                             infor_pseudonym_name.textContent = 'Không có thanh công khi bạn chưa thử.'; // Title name
                             information_timefriends_text.textContent = 'Bạn bè với nhau từ năm 2017'; // long time friends
                             information_locationfriends_text.textContent = 'Đến từ Ninh Hòa-Khánh Hòa.'; // Location friends
-                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('../img_thum/footed_hau.jpg')";
+                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('./img_thumbnail/footed_hau.jpg')";
                     break;
                     case 12:
-                            infor_friend_bgr.style.backgroundImage = "url('../img_thum/bgr_quyen.jpg')";
-                            infor_img_avt.src = '../img_thum/quyen.jpg'; // Avt.
+                            infor_friend_bgr.style.backgroundImage = "url('./img_thumbnail/bgr_quyen.jpg')";
+                            infor_img_avt.src = './img_thumbnail/quyen.jpg'; // Avt.
                             infor_your_name.textContent = 'Nguyễn Ngọc Quyên'; // Name
                             infor_pseudonym_name.textContent = 'Nắng hơn chữ NẮNG'; // Title name
                             information_timefriends_text.textContent = 'Bạn bè với nhau từ năm 2009.'; // long time friends
                             information_locationfriends_text.textContent = 'Đến từ Ninh Hòa-Khánh Hòa.'; // Location friends
-                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('../img_thum/footed_quyen.jpg')";
+                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('./img_thumbnail/footed_quyen.jpg')";
                     break;
                     case 13:
-                            infor_friend_bgr.style.backgroundImage = "url('../img_thum/bgr_hoa.jpg')";
-                            infor_img_avt.src = '../img_thum/hoa.jpg'; // Avt.
+                            infor_friend_bgr.style.backgroundImage = "url('./img_thumbnail/bgr_hoa.jpg')";
+                            infor_img_avt.src = './img_thumbnail/hoa.jpg'; // Avt.
                             infor_your_name.textContent = 'Nguyễn Thị Hòa'; // Name
                             infor_pseudonym_name.textContent = ''; // Title name
                             information_timefriends_text.textContent = 'Bạn bè với nhau từ năm 2009.'; // long time friends
                             information_locationfriends_text.textContent = 'Đến từ Ninh Hòa-Khánh Hòa.'; // Location friends
-                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('../img_thum/footed_hoa.jpg')";
+                            infor_bgr_footed.style.background = "linear-gradient(to top, transparent, #fff)," + "url('./img_thumbnail/footed_hoa.jpg')";
                     break;
                     default:
                         break;
