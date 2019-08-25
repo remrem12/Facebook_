@@ -105,7 +105,7 @@ for(let i = 0; i<hover_friends.length; i++) {
                     case 4:
                             infor_friend_bgr.style.backgroundImage = "url('./img_thumbnail/bgr_trang.jpg')";
                             infor_img_avt.src = './img_thumbnail/trang.jpg'; // Avt.
-                            infor_your_name.textContent = 'Trang Thuy Trang'; // Name
+                            infor_your_name.textContent = 'Tran Thuy Trang'; // Name
                             infor_pseudonym_name.textContent = '👱🏻‍👱🏻‍Be you - Be cool💋💋'; // Title name
                             information_timefriends_text.textContent = 'Đối tác với nhau từ năm 2019.'; // long time friends
                             information_locationfriends_text.textContent = 'Đến từ thủ đô Hà Nội.'; // Location friends
